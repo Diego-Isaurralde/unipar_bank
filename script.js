@@ -40,7 +40,7 @@ function calcularBanco(){
         R$ ${rendimento.toFixed(2)} <br>
 
         <strong>Rendimento:</strong>
-        R$ ${rendimento,toFixed(2)} <br>
+        R$ ${rendimento.toFixed(2)} <br>
         
         <strong>Metade do Saldo:</strong>
         R$ ${metadeSaldo.toFixed(2)} <br>
@@ -60,4 +60,8 @@ function calcularBanco(){
     }
     */
     //teste ? resultado se for verdade : resultado se for falso -> ternario do JS
+}
+
+function limparCaixa(){
+    document.getElementById("resultado").innerHTML = ``
 }
