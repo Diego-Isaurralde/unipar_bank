@@ -24,7 +24,7 @@ function calcularBanco(){
     let jurosCompostos = 
         saldo * (1 + taxa / 100) ** anos
 
-    /*saldo += 50
+    saldo += 50
 
     saldo -= 20
 
@@ -32,7 +32,7 @@ function calcularBanco(){
 
     saldo /= 2
 
-    saldo **= 2*/
+    saldo **= 2
 
     document.getElementById("resultado").innerHTML = `
 
